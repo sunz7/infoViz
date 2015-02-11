@@ -1,0 +1,87 @@
+.states {
+	stroke: #999;
+	stroke-width: 0.5px;
+}
+
+.states:hover{
+	fill-opacity:0.5;
+}
+#state-borders {
+  fill: grey;
+  stroke: #666;/*#a9a9a9;*/
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+svg{
+	fill: white;
+}
+
+.btn{
+	width: 212px;
+}
+
+#tooltip {   
+	position: absolute;           
+	text-align: center;
+	padding: 20px;             
+	margin: 10px;
+	font: 12px;         
+	border: 1px white;      
+	border-radius: 2px;           
+	pointer-events: none;         
+}
+#tooltip h4{
+	margin:0;
+	font-size:14px;
+}
+#tooltip{
+	background: #424242;
+	border:1px solid white;
+	font-size:12px;
+	width:auto;
+	padding:4px;
+	color:white;
+	opacity:1;
+}
+#tooltip table{
+	color: white;
+	table-layout:fixed;
+}
+#tooltip tr td{
+	padding:0;
+	margin:0;
+}
+#tooltip tr td:nth-child(1){
+	width:50px;
+}
+#tooltip tr td:nth-child(2){
+	text-align:center;
+}
+
+.bar {
+  fill: red;
+}
+.barchart{
+	height: 200px;
+}
+#bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
